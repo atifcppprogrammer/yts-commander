@@ -1,0 +1,40 @@
+{
+  "name": "yts-commander",
+  "description": "A terminal application for browsing YTS.MX",
+  "dependencies": {
+    "cli-table3": "0.6.x",
+    "commander": "6.1.x",
+    "colors": "1.4.x",
+    "axios": "0.20.x",
+    "open": "7.3.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cli.js"
+  },
+  "repository": {
+    "url": "https://github.com/atifcppprogrammer/yts-commander",
+    "type": "git"
+  },
+  "author": {
+    "name": "Atif Farooq"
+  },
+  "bin": {
+    "yts-commander": "cli.js"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+    "torrents",
+    "torrent",
+    "movies",
+    "movie",
+    "yify",
+    "yts"
+  ],
+  "version": "1.0.0",
+  "license": "MIT"
+}
