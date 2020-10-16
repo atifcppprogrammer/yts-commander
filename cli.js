@@ -22,8 +22,14 @@ const theme = {
   'success':colors.bold.green
 };
 
+const message = `
+The above help pertains only to the flags with which yts-commander can be
+invoked for more detailed information regarding how to use this cli we
+recommened that you launch yts-commander and enter '?' to obtain a more
+detailed help menu. Have Fun using yts-commander !`;
+
 program.option('-d, --disable', 'disable application colors');
-program.helpOption('-h, --help', 'show this help menu');
+program.on('--help', () => console.log(message));
 program.name("yts-commander");
 program.parse(process.argv);
 
