@@ -53,7 +53,7 @@ shown on the present page in **movie** mode, to return back to the current page 
 the **torrent** mode was invoked) one simply has to use the *b* command.
 
 ### Genre
-The command *genre* move is activated when the user invokes the *l* command in **movie** mode. Once open
+The *genre* mode is activated when the user invokes the *l* command in **movie** mode. Once open
 the user can select a movie genre using the *g[1-27]* command. This selection is then saved and only 
 comes into effect when the user perfoms a new search, like in **torrent** mode the command *b* returns
 **yts-commander** to the current page in **movie** mode.
