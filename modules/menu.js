@@ -268,7 +268,7 @@ exports.setMovieGenre = index => {
     return;
   }
   newGenreIndex = --index;
-  console.log(menuTheme.alert(appAlerts.settingGenre.concat(' ')
+  console.log(menuTheme.alert(appAlerts.settingGenre
     .concat(movieGenres[newGenreIndex]).concat(' !')));
 }
 

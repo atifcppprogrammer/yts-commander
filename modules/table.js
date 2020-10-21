@@ -77,7 +77,7 @@ const getMovieTableFor = (movie, index) => {
     [ tableTheme.info(`${index}.`), tableTheme.info(movie['title']) ],
     [ '', tableTheme.data(`year[${movie['year']}]`
          .concat(' ').concat(`imdb[${movie['rating']}]`)
-         .concat(' ').concat(`runtime[${movie['runtime']}]`)) ],
+         .concat(' ').concat(`runtime[${movie['runtime']} minutes]`)) ],
     [ '', tableTheme.text(movie['summary']) ],
     [ '', tableTheme.more(stringifyMovieGenres(movie['genres'])) ]
   );

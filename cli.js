@@ -26,9 +26,10 @@ const message = `
 The above help pertains only to the flags with which yts-commander can be
 invoked for more detailed information regarding how to use this cli we
 recommened that you launch yts-commander and enter '?' to obtain a more
-detailed help menu. Have Fun using yts-commander !`;
+detailed help menu. Have fun using yts-commander !`;
 
 program.option('-d, --disable', 'disable application colors');
+program.version('1.0.2');
 program.on('--help', () => console.log(message));
 program.name("yts-commander");
 program.parse(process.argv);

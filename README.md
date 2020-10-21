@@ -17,12 +17,13 @@ Usage: yts-commander [options]
 
 Options:
   -d, --disable  disable application colors
-  -h, --help     show this help menu
+  -V, --version  output the version number
+  -h, --help     display help for command
 
 The above help pertains only to the flags with which yts-commander can be
 invoked for more detailed information regarding how to use this cli we
 recommened that you launch yts-commander and enter '?' to obtain a more
-detailed help menu. Have Fun using yts-commander !
+detailed help menu. Have fun using yts-commander !
 ```  
 ## Modes and Usage
 **yts-commander** has four modes namely **movie**, **torrent**, **genre** and **help**, each of these 
@@ -53,7 +54,7 @@ shown on the present page in **movie** mode, to return back to the current page 
 the **torrent** mode was invoked) one simply has to use the *b* command.
 
 ### Genre
-The *genre* mode is activated when the user invokes the *l* command in **movie** mode. Once open
+The **genre** mode is activated when the user invokes the *l* command in **movie** mode. Once open
 the user can select a movie genre using the *g[1-27]* command. This selection is then saved and only 
 comes into effect when the user perfoms a new search, like in **torrent** mode the command *b* returns
 **yts-commander** to the current page in **movie** mode.
