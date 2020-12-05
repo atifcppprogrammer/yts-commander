@@ -35,11 +35,11 @@ once entered the application will fetch the corresponding movies and show the fi
 results. The screenshot
 below shows the results yielded by entering *avengers*.
 
-<div align = "center"><img src ="shots/movie.png"></div>
+<div align = "center"><img src ="shots/movie.png" style = "border-radius:20px"></div>
 
 The user can then use *p* - (load previous page) and *n* - (load next page) commands for paging through
 the fetched results. Each page of results shows no more than **five** movies. for which the commands
-*c[1-5]*, *y[1-5]*, *i[1-5]* and *u[1-5]* open the movie cover photo, youtube trailer, imdb papge and 
+*c[1-5]*, *y[1-5]*, *i[1-5]* and *u[1-5]* open the movie cover photo, youtube trailer, imdb page and 
 yts site page respectively in the user's default web browser.
 
 ### Torrent
@@ -47,7 +47,7 @@ The **torrent** mode is activated when the user invokes the *t[1-5]* command in 
 of the movies being show on the current page. The screenshot below shows torrent mode being activated as 
 a result of entering *t1* in the movie mode whose screenshot was presented above.
 
-<div align = "center"><img src ="shots/torrent.png"></div>
+<div align = "center"><img src ="shots/torrent.png" style = "border-radius:20px"></div>
 
 The command *t[1-5]* can also be invoked in this mode to navigate to torrents of the other movies being
 shown on the present page in **movie** mode, to return back to the current page of results (from where 
@@ -59,14 +59,14 @@ the user can select a movie genre using the *g[1-27]* command. This selection is
 comes into effect when the user perfoms a new search, like in **torrent** mode the command *b* returns
 **yts-commander** to the current page in **movie** mode.
 
-<div align = "center"><img src ="shots/genre.png"></div>
+<div align = "center"><img src ="shots/genre.png" style = "border-radius:20px"></div>
 
 ### Help
 The command *?* invokes the help mode, this mode merely summarizes the commands and modes which we have 
 discussed above. In addition to these there are certain commands which may be invoked regardless of which
 mode **yts-commander** is presently in.
 
-<div align = "center"><img src = "shots/help.png"></div>
+<div align = "center"><img src = "shots/help.png" style = "border-radius:20px"></div>
 
 Unlike the **torrent** and **genre** modes the help mode can be invoked from any other mode. The use of 
 the *b* command in this mode returns the **yts-commander** to which ever mode the *?* command was initiated
