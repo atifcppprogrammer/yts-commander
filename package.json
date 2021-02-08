@@ -5,7 +5,7 @@
     "cli-table3": "0.6.x",
     "commander": "6.1.x",
     "colors": "1.4.x",
-    "axios": "0.20.x",
+    "axios": "^0.21.1",
     "open": "7.3.x"
   },
   "main": "index.js",
